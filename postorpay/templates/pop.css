@@ -59,6 +59,6 @@
 }.startbutton:hover {
 	background-color:#000000;
 }.startbutton:active {
-	position:relative;
-	top:1px;
+	/*position:relative;
+	top:1px;*/
 }
