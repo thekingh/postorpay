@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pay It Or Say It</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <link href='game.css' rel='stylesheet' type='text/css'>
+  <style>
+  .draggable { width: 90px; height: 80px;  float: center;  font-size: .9em; }
+  .ui-widget-header p, .ui-widget-content p { margin: 0; }
+  #snaptarget1 { width: 90px; height: 80px; }
+  #snaptarget2 { width: 90px; height: 80px; }
+  #snaptarget3 { width: 90px; height: 80px; }
+  #snaptarget4 { width: 90px; height: 80px; }
+  #snaptarget5 { width: 90px; height: 80px; }
+  #snaptarget6 { width: 90px; height: 80px; }
+  #snaptarget7 { width: 90px; height: 80px; }
+  </style>
+  <script>
+  $(function() {
+    $( "#draggable1" ).draggable({ snap: ".ui-widget-header" });
+    $( "#draggable2" ).draggable({ snap: ".ui-widget-header" });
+    $( "#draggable3" ).draggable({ snap: ".ui-widget-header" });
+    $( "#draggable4" ).draggable({ snap: ".ui-widget-header" });
+    $( "#draggable5" ).draggable({ snap: ".ui-widget-header" });
+    $( "#draggable6" ).draggable({ snap: ".ui-widget-header" });
+    $( "#draggable7" ).draggable({ snap: ".ui-widget-header" });
+  });
+  </script>
+</head>
+<body>
+<table>
+  <tr>
+    <td>
+      <div id="snaptarget1" class="ui-widget-header">
+        <p>I'm a snap target</p>
+      </div>
+    </td>
+    <td>
+      <div id="snaptarget2" class="ui-widget-header">
+        <p>I'm a snap target</p>
+      </div>
+    </td>
+    <td>
+      <div id="snaptarget3" class="ui-widget-header">
+        <p>I'm a snap target</p>
+      </div>
+    </td>
+    <td>
+      <div id="snaptarget4" class="ui-widget-header">
+        <p>I'm a snap target</p>
+      </div>
+    </td>
+    <td>
+      <div id="snaptarget5" class="ui-widget-header">
+        <p>I'm a snap target</p>
+      </div>
+    </td>
+    <td>
+      <div id="snaptarget6" class="ui-widget-header">
+        <p>I'm a snap target</p>
+      </div>
+    </td>
+    <td>
+      <div id="snaptarget7" class="ui-widget-header">
+        <p>I'm a snap target</p>
+      </div>
+    </td>
+  </tr>
+<br style="clear:both">
+ 
+
+<table>
+  <tr>
+    <td>
+      <div id="draggable1" class="draggable ui-widget-content">
+        A
+      </div>
+    </td>
+    <td>
+      <div id="draggable2" class="draggable ui-widget-content">
+        <h1>B</h1>
+      </div>
+    </td>
+    <td>
+      <div id="draggable3" class="draggable ui-widget-content">
+        <h1>C</h1>
+      </div>
+    </td>
+    <td>
+      <div id="draggable4" class="draggable ui-widget-content">
+        <h1>D</h1>
+      </div>
+    </td>
+    <td>
+      <div id="draggable5" class="draggable ui-widget-content">
+        <h1>E</h1>
+      </div>
+    </td>
+    <td>
+      <div id="draggable6" class="draggable ui-widget-content">
+        <h1>F</h1>
+      </div>
+    </td>
+    <td>
+      <div id="draggable7" class="draggable ui-widget-content">
+        <h1>G</h1>
+      </div>
+    </td>
+  </tr>
+<br style="clear:both">
+</table>
+ 
+</body>
+</html>
